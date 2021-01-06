@@ -1,0 +1,42 @@
+    /* ----------------------------------------------------------
+    :: Template Name: TheGazette - News Magazine HTML5 Template
+    :: Author: Colorlib
+    :: Author URL: https://colorlib.com
+    :: Description: TheGazette is a smart & creative news & magazine template. It's suitable for all news & magazine website.
+    :: Version: 1.0.0
+    :: Created: 17 January 2018
+    :: Last Updated: 17 January 2018
+    ---------------------------------------------------------- */
+
+    /* ============ PLACE YOUR CUSTOM CSS HERE ============ */
+
+    .cookie-banner {
+        position: fixed;
+        display: flex;
+        bottom: 40px;
+        left: 10%;
+        right: 10%;
+        width: 80%;
+        padding: 15px 15px;
+        align-items: start;
+        justify-content: space-between;
+        background-color: #eee;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+        z-index: 10000;
+    }
+
+    .close-cookie {
+        height: 20px;
+        width: 40px;
+        background-color: #d5d5d5;
+        border: none;
+        color: #000000;
+        border-radius: 2px;
+        cursor: pointer;
+        opacity: 1 !important;
+    }
+
+    .cookie-banner p {
+        padding: 10px;
+    }

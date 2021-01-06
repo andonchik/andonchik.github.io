@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Terms And Conditions</title>
+    
+
+    <link rel="icon" href="img/core-img/favicon.ico">
+
+    <link rel="stylesheet" href="css/core-style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link href="css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Header Area Start -->
+    <header class="header-area">
+
+        <div class="bottom-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <div class="main-menu">
+                            <nav class="navbar navbar-expand-lg">
+                                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#gazetteMenu" aria-controls="gazetteMenu" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i> Menu</button>
+                                <div class="collapse navbar-collapse" id="gazetteMenu">
+                                    <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item"><a class="nav-link" href="index.html">Avaleht</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="blog.html">Artiklid</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="contact.html">Kontaktid</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="terms.html">Tingimused</a></li>
+                                        <li class="nav-item"><a class="nav-link" href="policy.html">Eraelu puutumatuse poliitika</a></li>
+                                    </ul>
+                                    <!-- Search Form -->
+                                    <div class="header-search-form mr-auto">
+                                        <form action="#">
+                                            <input type="search" placeholder="Input your keyword then press enter..." id="search" name="search">
+                                            <input class="d-none" type="submit" value="submit">
+                                        </form>
+                                    </div>
+                                    <!-- Search btn -->
+                                    <div id="searchbtn">
+                                        <i class="fa fa-search" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header Area End -->
+
+    <section class="single-post-area">
+        <div class="single-post-contents">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-8">
+                        <div class="single-post-text">
+                            <h2>Täname taotlus!</h2>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+
+    <div class='cookie-banner'>
+        <p>
+            Veebileht kasutab küpsiseid. Nad võimaldavad teid ära tunda ja saada teavet teie kasutaja kogemus.Jätkates vaatamine veebilehel, nõustun kasutades küpsiste saidi omanik vastavalt  <a target="_blank" href="https://en.wikipedia.org/wiki/HTTP_cookie">Prääniku poliitika</a>
+        </p>
+        <button class='close-cookie'>&times;</button>
+    </div>
+    <script>
+        window.onload = function () {
+            $('.close-cookie').click(function () {
+                $('.cookie-banner').fadeOut();
+            })
+        }
+    </script>
+    <script>
+        let elems = document.querySelectorAll('.server-name');
+        elems.forEach((elem) => {
+            elem.innerHTML = window.location.hostname
+        })
+    </script>
+
+</body>
+
+</html>
